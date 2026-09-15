@@ -246,6 +246,153 @@ Linux内核专题——心中的内核
 
 - [41. 心中的内核 —— 效率至上而非历史遗留原因：为什么内核仍用 C 语言开发](https://cppguide.cn/pages/the-kernel-in-the-mind-ch41/)
 
+大型专栏：Linux网络编程从应用层到内核实现源码详解
+
+[大型专栏：Linux网络编程从应用层到内核实现源码详解](https://mp.weixin.qq.com/s/gUfKdfRwwa8bxxtFJ8gXQw)
+
+[第 02 篇 · 工具箱：读源码的工具，和看内核的工具](https://mp.weixin.qq.com/s/Df6u2vmd8DReAZOFk-xARg)
+
+[第 03 篇 · 三层派发总纲：socket 函数如何找到它的内核实现](https://mp.weixin.qq.com/s/W2A3eAdv5K7jcKfZ8fQCCw)
+
+[第 04 篇 · 读内核网络代码的最小 C 知识](https://mp.weixin.qq.com/s/JlfWcYkYNRSYdkKRttpTQg)
+
+[第 05 篇 · 谁在和你抢同一个 socket：lock_sock() 到底锁了什么](https://mp.weixin.qq.com/s/9lRYWZpxTa_L1BD_eInE0w)
+
+[第 06 篇 · sk_buff（上）：一块内存如何同时是帧、是包、是段](https://mp.weixin.qq.com/s/cekkTdLKkMONYowuXrC_Rg)
+
+[第 07 篇 · sk_buff（下）：非线性区、克隆与引用计数](https://mp.weixin.qq.com/s/0w1sIBhQ3SJ6ZRJZwWBU2g)
+
+[第 08 篇 · skb 的分配与回收：一个包的内存从哪来，又还到哪去](https://mp.weixin.qq.com/s/btKALhXKDZ5NpidnK0w_Rg)
+
+[第 09 篇 · struct socket  与 struct sock：为什么一个连接要两个结构体](https://mp.weixin.qq.com/s/oT2hl1vlhNNZIFgx0t2rqA)
+
+[第 10 篇 · sk 的队列与内存记账：SO_SNDBUF 到底限制了什么](https://mp.weixin.qq.com/s/BiiMGnFEW7R5vhSn5ExQyA)
+
+[第 11 篇 · net_device 与多队列模型：网卡在内核里长什么样](https://mp.weixin.qq.com/s/0QSaYQ5V3w7XfbAz3BdDQQ)
+
+[第 12 篇 · network namespace：struct net 为什么无处不在](https://mp.weixin.qq.com/s/PACx24yaUPi4JfK85MoDiQ)
+
+[第 13 篇 ·  socket() ：一个 fd 的诞生](https://mp.weixin.qq.com/s/b8pDZF5Kn4eVGKxZ4CH2GQ)
+
+[第 14 篇 · bind()：端口哈希表的秘密](https://mp.weixin.qq.com/s/rRSAc0fRdd0UNb0AszDugA)
+
+[第 15 篇 · listen()：两个队列的真相](https://mp.weixin.qq.com/s/KENlMbXn7693mRf-IkDFTg)
+
+[第 16 篇 · connect()：三次握手的发起端](https://mp.weixin.qq.com/s/-BYKo2QwNTZ-nh2sRVPnEw)
+
+[第 17 篇 · accept()：从全连接队列取一个 sk](https://mp.weixin.qq.com/s/l9xMoG4t87Nc0tDbFNgUAw)
+
+[第 18 篇 · 一次连接的完整生命周期：从第一个 SYN 到最后一个 FIN](https://mp.weixin.qq.com/s/yt3RKU13Ck0AKMfokvYzhg)
+
+[第 19 篇 ·  send 家族：msghdr 与 iov_iter](https://mp.weixin.qq.com/s/yPZSPcERt0bS1RkfJZyDoA)
+
+[第 20 篇 · recv 家族：从接收队列拷贝出来](https://mp.weixin.qq.com/s/Vpxp-gMzOS8NAQYULdY_GQ)
+
+[第 21 篇 · 阻塞与非阻塞：同一段代码，只差一个 timeo](https://mp.weixin.qq.com/s/TihSS9LFnH4MsPWcAgEL8g)
+
+[第 22 篇 · setsockopt 的一生：level 派发与 sockptr_t](https://mp.weixin.qq.com/s/d_Gs0Ou8Ei8QC75XBdzyTQ)
+
+[第 23 篇 · 选项 vs sysctl vs cgroup：谁说了算](https://mp.weixin.qq.com/s/VE2DWH8g-swlTFipj5oc-g)
+
+[第 24 篇 · cmsg：被忽略的另一半接口](https://mp.weixin.qq.com/s/kOPvVS8m_eb3hyPSkuxMWw)
+
+[第 25 篇 · select/poll/epoll：唤醒链是怎么接起来的](https://mp.weixin.qq.com/s/5Li0shMZaJYM6L8BAz8U9g)
+
+[第 26 篇 · epoll 内部：一棵红黑树、一条就绪链、一次 ep_poll()](https://mp.weixin.qq.com/s/R5r-AX-NTS5Pdq5R0LsgmQ)
+
+[第 27 篇 · close() 与 shutdown()：语义差异的内核根源](https://mp.weixin.qq.com/s/sT_0OrA3_u3ycGhFUmaGHA)
+
+[第 28 篇 · sendfile/splice/mmap：绕开用户态缓冲区](https://mp.weixin.qq.com/s/jRWE3ewhOQMwQVv12f7h1A)
+
+[第 29 篇 · 同步与异步：SIGIO 那一代，和 io_uring 那一代](https://mp.weixin.qq.com/s/kEiANd5h7b6iN-6i5akuCQ)
+
+[第 30 篇 · tcp_sendmsg_locked：用户数据如何变成 skb](https://mp.weixin.qq.com/s/A4LcfZRNOqW4iNt8Clj3Ww)
+
+[第 31 篇 · tcp_push 与 Nagle：数据什么时候真的发出去](https://mp.weixin.qq.com/s/iG7WZDfO_xrEni9IvnWo8A)
+
+[第 32 篇 · tcp_transmit_skb：TCP 头是怎么拼出来的](https://mp.weixin.qq.com/s/wh0UR7rtQtcfw3HU6JyOGQ)
+
+[第 33 篇 · 八个标志位，各自由谁置上](https://mp.weixin.qq.com/s/URW8HnUfCrUSuYBxervhsQ)
+
+[第 34 篇 · 滑动窗口：四个序号，两个窗口](https://mp.weixin.qq.com/s/7xfoVW20plft9muhg6JDeA)
+
+[第 35 篇 · TSO / GSO：一个 skb 怎么变成多个报文](https://mp.weixin.qq.com/s/XBWJfRWsEoraDd7QG6-9qQ)
+
+[第 36 篇 · ip_queue_xmit：路由查找与 IP 头组装](https://mp.weixin.qq.com/s/fSJsJ0EcsWe6QFvH6-w8ZA)
+
+[第 37 篇 · 拥塞控制框架：tcp_congestion_ops 的回调表](https://mp.weixin.qq.com/s/ecC6qaD7-tMpsHJQavfNWQ)
+
+[第 38 篇 · 重传定时器与 RTO：超时时间怎么算出来，超时之后做什么](https://mp.weixin.qq.com/s/QUjKesWtI_jHvrjMnALNQg)
+
+[第 39 篇 · 快速重传与尾部丢包探测：不等 RTO 就判出丢包的两条路](https://mp.weixin.qq.com/s/rENVUJ4XQzdkLxGEKIJstg)
+
+[第 40 篇 · RACK：按发送时间判定丢包](https://mp.weixin.qq.com/s/1pdUGBxuuU1wWjlZhAJhNw)
+
+[第 41 篇 · undo：判错之后怎么撤销这次拥塞窗口下调](https://mp.weixin.qq.com/s/408UMlWyXUnkI7nQvBgq9g)
+
+[第 42 篇 · 邻居子系统、ARP 与 __dev_queue_xmit](https://mp.weixin.qq.com/s/Y74AzQOjgPLJUlcHVyo5VA)
+
+[第 43 篇 · 从硬中断到软中断：napi_schedule](https://mp.weixin.qq.com/s/vpokv_NPbzdqFmh0Qdkzzw)
+
+[第 44 篇 · net_rx_action：软中断主循环与 budget](https://mp.weixin.qq.com/s/y-Jh5_tqyTmF5nfEvTwkzg)
+
+[第 45 篇 · threaded NAPI、napi_config 与 busy_poll](https://mp.weixin.qq.com/s/_cESBpLEDaWynp9fxQfwOQ)
+
+[第 46 篇 · 驱动 poll 内部：从 DMA 描述符环到 skb](https://mp.weixin.qq.com/s/-QZHfVnOW0sCyjWLNkd9Rw)
+
+[第 47 篇 · GRO：把小报文粘成大报文](https://mp.weixin.qq.com/s/wQ4mpGzPjpOd_ixgBZbKjQ)
+
+[第 48 篇 · __netif_receive_skb_core：packet_type 分发与 RPS/RFS](https://mp.weixin.qq.com/s/93DOT1Ijia2PXlMHucZpCA)
+
+[第 49 篇 · ip_rcv到 ip_local_deliver：IP 层收包的三道关](https://mp.weixin.qq.com/s/0uwit_sixWjNOCGR_sK6bw)
+
+[第 50 篇 ·tcp_v4_do_rcv：socket 查找、backlog 与 prequeue 的消亡](https://mp.weixin.qq.com/s/sxIxh-m1WqDDxuoIHvmt4Q)
+
+[第 51 篇 · tcp_rcv_established：快速路径为什么快](https://mp.weixin.qq.com/s/kqnIP_OHhnDK3EkFahM7MA)
+
+[第 52 篇 · tcp_ack 与 SACK 处理：收到一个 ACK，发送方更新哪些状态](https://mp.weixin.qq.com/s/3dtSjkOQ3Gv9NYHRcboj4Q)
+
+[第 53 篇 · 乱序队列：一棵红黑树，进树、出树与内存不够时先丢谁](https://mp.weixin.qq.com/s/F5pCl2baHh2wDoKISapQ9w)
+
+[第 54 篇 · 延迟 ACK、QUICKACK 与 ACK 压缩](https://mp.weixin.qq.com/s/KyWSnUtezX2pntpTA4ibdg)
+
+[第 55 篇 · 状态机：握手、挥手、TIME_WAIT 与保活](https://mp.weixin.qq.com/s/JuKMHC8JZeGN3bn_gBfWHg)
+
+[第 56 篇 · CUBIC 与 BBR 源码对读](https://mp.weixin.qq.com/s/MQlYVIaSFBIH31eNDUdbKg)
+
+[第 57 篇 · 接收窗口与内存自动调优](https://mp.weixin.qq.com/s/Y0nKbm3gkIZ6hnOd1i8gng)
+
+[第 58 篇 · 路由子系统与 dst_entry 的生命周期](https://mp.weixin.qq.com/s/8NYC8PM-3OoRPtRLwiZ_hQ)
+
+[第 59 篇 · FIB trie、策略路由与 nexthop 对象](https://mp.weixin.qq.com/s/tXVcNnq9zPPBfTWth2BEYA)
+
+[第 60 篇 · netfilter：hook 点如何嵌进收发路径](https://mp.weixin.qq.com/s/UEEEYigHIcbiXfknatPcKQ)
+
+[第 61 篇 · TC 与 qdisc：pfifo_fast、fq、fq_codel](https://mp.weixin.qq.com/s/nocN_IkVl9B4DtTJDpn_ug)
+
+[第 62 篇 · 桥接与 VLAN：帧进桥之后怎么查表转发，VLAN 标签在哪一步加减](https://mp.weixin.qq.com/s/MZ7IJaRrQsIXxn2Qh7pqXw)
+
+[第 63 篇 · 隧道与封装：一个帧被 VXLAN 套上 50 字节，再原样拆开的全程](https://mp.weixin.qq.com/s/P_0Ewn74mU5LzQYOixsomw)
+
+[第 64 篇 · XDP：在 skb 诞生之前拦截](https://mp.weixin.qq.com/s/ilFBP2johjzSiBqj8mbA7A)
+
+[第 65 篇 · eBPF 网络钩子全景](https://mp.weixin.qq.com/s/a0PqGzAGKI46zeBE4jmffQ)
+
+[第 66 篇 · 硬件卸载：NETIF_F_*如何改变代码路径](https://mp.weixin.qq.com/s/plm8Ec9l7oHt_bk5l5C6tw)
+
+[第 67 篇 · BIG TCP：64KB 这道上限卡在哪，内核用什么办法绕过去](https://mp.weixin.qq.com/s/Ppsu5kuXNXf_nx9oVvlqFA)
+
+[第 68 篇 · devmem TCP：数据直落 GPU 内存](https://mp.weixin.qq.com/s/Af7LJ0Etk_878IASItdiQg)
+
+[第 69 篇 · io_uring 零拷贝收发](https://mp.weixin.qq.com/s/x04oOolIHbQdIX4ArXokKQ)
+
+[第 70 篇 · MPTCP 与 PSP：新协议如何嵌进旧框架](https://mp.weixin.qq.com/s/MUGA4UQZTJIQVzH2OVq4DQ)
+
+[第 71 篇 · dropreason 与观测工具箱：内核怎么给出丢包原因码，你又怎么读到它](https://mp.weixin.qq.com/s/9eSt9j3fhIJoAC8w8Pnblw)
+
+[第 72 篇 · 性能排查实战：四个现场案例，以及怎么把这套方法用到你自己的内核上](https://mp.weixin.qq.com/s/mnZYNkfnxWs8UhWOy53Fog)
+
+
 ## Part IV
 * [程序员面试题精讲](articles/程序员面试题精讲/README.md)
     * [腾讯后台开发实习生技能要求](articles/程序员面试题精讲/腾讯后台开发实习生技能要求.md)
