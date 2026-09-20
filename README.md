@@ -392,6 +392,143 @@ Linux内核专题——心中的内核
 
 [第 72 篇 · 性能排查实战：四个现场案例，以及怎么把这套方法用到你自己的内核上](https://mp.weixin.qq.com/s/mnZYNkfnxWs8UhWOy53Fog)
 
+远程控制软件源码
+
+[入云龙远程控制系统 · 从零开发](https://mp.weixin.qq.com/s/Ucc3wkw5zAHT1oEiyoijNQ)
+
+[第 1 课　课程导览：你将亲手做出什么](https://mp.weixin.qq.com/s/27grOWFxhAGX3gb7_IUFiA)
+
+[第 2 课　四个角色的分工：用对讲机和快递站打比方](https://mp.weixin.qq.com/s/HhPb6rv3FjIZGF_t8G_cpw)
+
+[第 3 课　开发环境搭建：把工具一个个装好](https://mp.weixin.qq.com/s/5SkgEopv9GMb50XKE01iog)
+
+[第 4 课　工程基本功：CMake 工程怎么搭、编译、调试、出包](https://mp.weixin.qq.com/s/bJ9k-PUsezWQeBPK5wEe_w)
+
+[第 5 课　立规矩：编码规范与工程纪律](https://mp.weixin.qq.com/s/NU7J3ud4FjbI4N5u2GhoXA)
+
+[第 6 课　Probe First 准则：先跑测试再改正式代码](https://mp.weixin.qq.com/s/K_-MRvyGYfI1y_3lIkzSKg)
+
+[第 7 课　master 界面整体设计：先画线框，定四大分区](https://mp.weixin.qq.com/s/Ply0ZtQl99VpmwEGfj20aQ)
+
+[第 8 课　主控面板首页设计：让人一眼知道能干嘛](https://mp.weixin.qq.com/s/nYw_E1CucAbfe7WAj4nVtQ)
+
+[第 9 课　设备栏 + 多 tab 工作区：开页、关页、掉线自动关](https://mp.weixin.qq.com/s/qV8zUTVj3c1CG-IssTQQPw)
+
+[第 10 课　总体技术方案鸟瞰：每个选型为什么这么选](https://mp.weixin.qq.com/s/AITXNh7LDVvjahlq91IsPw)
+
+[第 11 课　自己设计一套暗号：二进制协议入门](https://mp.weixin.qq.com/s/zUof3-6nil1WzSxH6DX4kg)
+
+[第 12 课　用 libuv 写最简单的网络程序：异步回调思维](https://mp.weixin.qq.com/s/Mm5IvPAHQsjWk6j3l2vUbQ)
+
+[第 13 课　master 骨架：一个窗口，背后挂一个网络线程](https://mp.weixin.qq.com/s/MjSOOL1I1XjSEn948L-Z_A)
+
+[第 14 课　agent 骨架：balloonui 自绘窗口](https://mp.weixin.qq.com/s/lgY0mEe8jljM2CkHbiM3pg)
+
+[第 15 课　先定 UI 规范：主题 token、Toast 三色、组件库](https://mp.weixin.qq.com/s/gxb_KodRG31k4mV31p8dMw)
+
+[第 16 课　日志地基：落盘约定 / 滚动 / 级别 / 立即落盘](https://mp.weixin.qq.com/s/mYXwGINQxIsFrmIhdGrlbQ)
+
+[第 17 课　第一次握手：设备列表里冒出一台真机](https://mp.weixin.qq.com/s/-ypCMAI8CpyjzvT-M98P-g)
+
+[第 18 课　控制通道 ControlChannel：把收发收口成一个盒子](https://mp.weixin.qq.com/s/v4vj4ZmEZCFSMKA2UCrwdQ)
+
+[第 19 课　心跳与掉线：脉冲状态点与掉线善后](https://mp.weixin.qq.com/s/UvO9O9rf_XMDDs3VC8YmXw)
+
+[第 20 课　帧的统一收口 FrameCodec](https://mp.weixin.qq.com/s/o2Ux2Z0cY5uGBPEXhqrafg)
+
+[第 21 课　为什么要加密：握手密钥交换（讲人话）](https://mp.weixin.qq.com/s/E8SlzUE6_DkOabQMpqcRxg)
+
+[第 22 课　端到端加密落地](https://mp.weixin.qq.com/s/iuwAgsukbgkk2AFIS4d6Eg)
+
+[第 23 课　信令链路加密：端到服务器那一段](https://mp.weixin.qq.com/s/NNVusumTNO4X_OLGa2okmQ)
+
+[第 24 课　压缩：让数据更小、省流量](https://mp.weixin.qq.com/s/bVQOhFUXQhT5YuUq8M8yCQ)
+
+[第 25 课　PayloadTransform：加密 + 压缩串成一条流水线](https://mp.weixin.qq.com/s/224wGikwa7bQ0MvClI22tg)
+
+[第 26 课　三种连法总览：直连 → 打洞 → 中转](https://mp.weixin.qq.com/s/-aHNbOPlSDgkIuir6_fg_w)
+
+[第 27 课　信令服务器 rylss（一）：注册与查找](https://mp.weixin.qq.com/s/mmfzwDtVOOzezgn8Ul1iAQ)
+
+[第 28 课　信令服务器 rylss（二）：撮合与打洞中继](https://mp.weixin.qq.com/s/3R8B8X_ivG0u14SKkwQTRQ)
+
+[第 29 课　中转服务器 rylsr：按 UUID 配对、字节透传](https://mp.weixin.qq.com/s/J170r_K1vSYcjklsK68QBA)
+
+[第 30 课　NAT 与打洞原理](https://mp.weixin.qq.com/s/9GKu0I0L3osDimC8uZ3ovw)
+
+[第 31 课　UDP 打洞实战](https://mp.weixin.qq.com/s/Mt69VklvFFdtZeS8kRvTQA)
+
+[第 32 课　KCP：让不可靠的 UDP 变可靠](https://mp.weixin.qq.com/s/hjWi028uNuvUDjqohmUL3A)
+
+[第 33 课　连接状态机：超时、回退与指标上报界面](https://mp.weixin.qq.com/s/WaFKdveEIM-HXXEnqi1M-g)
+
+[第 34 课　一键生成 agent：配置塞进 exe 尾部](https://mp.weixin.qq.com/s/zEsucCsyV4Y_8Q3y3ft5Jw)
+
+[第 35 课　副连接 AuxiliaryConnection：主通道之外的旁路](https://mp.weixin.qq.com/s/ocIR_qwW2LHzTuwxWRRujg)
+
+[第 36 课　连接管理 / 网络监视器（master 这侧）](https://mp.weixin.qq.com/s/Vq6yfarLvkB1jLtN8X5sxg)
+
+[第 37 课　agent 升级（一）：下发新版本](https://mp.weixin.qq.com/s/B7wyNKmzDPq1tx2QbntGkg)
+
+[第 38 课　agent 升级（二）：自我替换 + 失败回滚](https://mp.weixin.qq.com/s/hKu-GjB_QSAs6slh0GrPzw)
+
+[第 39 课　远程拉取三件套：拉日志 / 拉 dump / 拉屏幕截图](https://mp.weixin.qq.com/s/1IQ262jMn0eB69XvmRESKA)
+
+[第 40 课　权限与授权弹窗 + 审计日志](https://mp.weixin.qq.com/s/uXxRvFBwtZoMgPYXBIPM0Q)
+
+[第 41 课　为什么要插件化](https://mp.weixin.qq.com/s/edylNG7DN9cxm23eusd3Jg)
+
+[第 42 课　插件 SDK 与宿主：tab 的一生、掉线自动关](https://mp.weixin.qq.com/s/jx0ha24G-pw_ya2EkoyZ3g)
+
+[第 43 课　写第一个插件 hello-world：两端最小闭环](https://mp.weixin.qq.com/s/Yk4-LiWOrdnpr1bX0LEMFA)
+
+[第 44 课　插件下发机制：自动推、去重、独立副连接](https://mp.weixin.qq.com/s/eUI2CxK4LE8tjj49lCUsFg)
+
+[第 45 课　两端的插件 UI 宿主](https://mp.weixin.qq.com/s/NscU_KkVK7tcVmtqYoGT2w)
+
+[第 46 课　统一的传输管理设计](https://mp.weixin.qq.com/s/_peunmzPqqYHJa4MLbp-lA)
+
+[第 47 课　远程终端（一）：接管命令行](https://mp.weixin.qq.com/s/SJHxDsaWCEv27yjEunH1zw)
+
+[第 48 课　远程终端（二）：中断、历史与单会话收口](https://mp.weixin.qq.com/s/zTWEeBwVCzRNpJ4COaxfwQ)
+
+[第 49 课　远程屏幕（一）：屏幕采集](https://mp.weixin.qq.com/s/-piKNFa-cmKjUPXu4Y_m2A)
+
+[第 50 课　远程屏幕（二）：编码与推流](https://mp.weixin.qq.com/s/27lUI1Jn23IA9d-k_3fjEw)
+
+[第 51 课　远程屏幕（三）：master 端解码显示](https://mp.weixin.qq.com/s/FlDhL635K4NixdHXWrGy2g)
+
+[第 52 课　远程屏幕（四）：鼠标键盘输入回传](https://mp.weixin.qq.com/s/bbZH3yzoap4dXX7H9OdLkg)
+
+[第 53 课　远程屏幕·业务①：远程桌面](https://mp.weixin.qq.com/s/mqSXjwNGy3-Bn5e__Z31_w)
+
+[第 54 课　远程屏幕·录屏](https://mp.weixin.qq.com/s/PJzhOWCluE63PkVDHD4o5g)
+
+[第 55 课　远程屏幕·屏幕墙](https://mp.weixin.qq.com/s/c_phO-NtWEdDOtLP7NypvA)
+
+[第 56 课　远程屏幕·屏幕广播](https://mp.weixin.qq.com/s/RpL3PxNOUJYoqUHDr292jA)
+
+[第 57 课　远程屏幕·屏幕中转](https://mp.weixin.qq.com/s/y1yzO6JWJcZmVJ32Z0uTLg)
+
+[第 58 课　文件管理（一）：双栏浏览](https://mp.weixin.qq.com/s/1RcJS8S2el7vYgd4Q2RiBg)
+
+[第 59 课　文件管理（二）：传输引擎与队列](https://mp.weixin.qq.com/s/WX3JQ0yAP0GWMMSMlJyzLA)
+
+[第 60 课　远程聊天：文字 / 图片 / 表情 / 历史](https://mp.weixin.qq.com/s/VR37EJx85Li28ks6IGG0xg)
+
+[第 61 课　语音视频通话（一）：音频](https://mp.weixin.qq.com/s/LFzvqU_HJ3RjE4DzvGd2vw)
+
+[第 62 课　语音视频通话（二）：视频 + 通话交互](https://mp.weixin.qq.com/s/Kyv8ODTK4qmcGeJnfVOoUw)
+
+[第 63 课　系统管理（一）：进程 / 服务 / 启动项 / 网络连接](https://mp.weixin.qq.com/s/2jekal13jetQL6n1F-HCVQ)
+
+[第 64 课　系统管理（二）：注册表 / 事件日志 / 磁盘 / 计划任务](https://mp.weixin.qq.com/s/i5tlM7betpTdJc564J9-ZQ)
+
+[第 65 课　设备管理进阶：分组 / 收藏置顶 / 批量 / 持久化](https://mp.weixin.qq.com/s/E78RnrpKT8d9o_yUBtfMDA)
+
+[第 66 课　公告 / 电源启动 / 杂项](https://mp.weixin.qq.com/s/jxCbT-RiqxwmVkf1_w_xEQ)
+
+[第 67 课　打包与部署](https://mp.weixin.qq.com/s/B0FL_Zdwsd9MDZXr-icv_g)
 
 ## Part IV
 * [程序员面试题精讲](articles/程序员面试题精讲/README.md)
